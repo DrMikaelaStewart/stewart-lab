@@ -39,6 +39,41 @@
     </ul>
   </div></section>
 
+  <section class="section" id="gallery"><div class="wrap reveal">
+    <div class="section-head"><p class="eyebrow">Life in the lab</p>
+      <h2>Science, and the people doing it</h2>
+      <p>Conferences, poster sessions, and the occasional very nerdy game night. Tap any photo to enlarge.</p></div>
+    <!-- EDIT: to add a photo, upload it to images/ and copy one <figure class="shot"> block.
+         The caption is the text inside <figcaption>. -->
+    <div class="gallery">
+      <figure class="shot"><button type="button" class="shot-btn"><img src="images/lab-group.jpg" alt="Stewart Lab group photo outside the science building" loading="lazy"></button>
+        <figcaption>The whole crew. Wearing purple isn&rsquo;t in the lab safety manual, but the data trend strongly that way.</figcaption></figure>
+      <figure class="shot"><button type="button" class="shot-btn"><img src="images/conf-proline-kink.jpg" alt="Student presenting the poster A Kink in the System" loading="lazy"></button>
+        <figcaption>&ldquo;A Kink in the System&rdquo;: one stubborn proline can unravel a whole helix. Great title, real science.</figcaption></figure>
+      <figure class="shot"><button type="button" class="shot-btn"><img src="images/conf-peptide-mimics.jpg" alt="Student explaining a poster on peptide mimics of the BRCA1-PALB2 interaction" loading="lazy"></button>
+        <figcaption>Explaining how designer peptides might block the BRCA1&ndash;PALB2 handshake. The hand gestures are load-bearing.</figcaption></figure>
+      <figure class="shot"><button type="button" class="shot-btn"><img src="images/conf-meiosis.jpg" alt="Student presenting a poster on C. elegans meiosis" loading="lazy"></button>
+        <figcaption>How BRCA1&rsquo;s worm cousin keeps chromosomes in line during meiosis. Several thousand worms contributed; none were available for comment.</figcaption></figure>
+      <figure class="shot"><button type="button" class="shot-btn"><img src="images/conf-ros.jpg" alt="Two students with a poster on BRCA1 and reactive oxygen species" loading="lazy"></button>
+        <figcaption>Investigating oxidative stress &mdash; a subject every grad student understands on a deeply personal level.</figcaption></figure>
+      <figure class="shot"><button type="button" class="shot-btn"><img src="images/conf-asbmb-cyp.jpg" alt="Student at the ASBMB national meeting beside a research poster" loading="lazy"></button>
+        <figcaption>Taking the worm-and-BRCA1 work to the national stage at the ASBMB meeting. Poster #79, kind of a big deal.</figcaption></figure>
+      <figure class="shot"><button type="button" class="shot-btn"><img src="images/lab-game-night.jpg" alt="Four lab members gathered around a table" loading="lazy"></button>
+        <figcaption>Lab meeting, or the nerdiest game night in Fort Worth? The amino-acid chart on the table says: both.</figcaption></figure>
+      <figure class="shot"><button type="button" class="shot-btn"><img src="images/lab-classroom.jpg" alt="Three lab members in a classroom with data on the screens behind them" loading="lazy"></button>
+        <figcaption>Three scientists, two giant monitors, and roughly forty open browser tabs.</figcaption></figure>
+      <figure class="shot"><button type="button" class="shot-btn"><img src="images/conf-asbmb-selfie.jpg" alt="Lab members taking a selfie in front of conference posters" loading="lazy"></button>
+        <figcaption>Conference mode, hour six: fully caffeinated, freshly credentialed, running on poster fumes.</figcaption></figure>
+    </div>
+  </div></section>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true">
+    <button class="lb-close" type="button" aria-label="Close">&times;</button>
+    <button class="lb-prev" type="button" aria-label="Previous photo">&#8249;</button>
+    <figure class="lb-figure"><img id="lb-img" src="" alt=""><figcaption id="lb-cap"></figcaption></figure>
+    <button class="lb-next" type="button" aria-label="Next photo">&#8250;</button>
+  </div>
+
   <section class="section"><div class="wrap reveal">
     <div class="join">
       <div><h2>Want to be on this page?</h2>
@@ -46,4 +81,4 @@
       <a class="btn btn-primary" href="join.html">Join the lab</a>
     </div>
   </div></section>
-</main><footer><div class="wrap foot-grid"><div><div class="brand"><svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="mg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6E3FA3"/><stop offset="1" stop-color="#1FB8AE"/></linearGradient></defs><path d="M8 26 C 14 8, 26 8, 32 26 C 26 34, 14 34, 8 26 Z" fill="none" stroke="url(#mg)" stroke-width="3.4" stroke-linecap="round"/><circle cx="20" cy="20" r="2.6" fill="#1FB8AE"/></svg>Stewart Lab</div><p class="muted">Department of Biology<br>Texas Christian University, Fort Worth, TX<br><a href="mailto:mikaela.stewart@tcu.edu">mikaela.stewart@tcu.edu</a></p></div><div><ul class="foot-links"><li><a href="research.html">Research</a></li><li><a href="publications.html">Publications</a></li><li><a href="people.html">People</a></li><li><a href="join.html">Join</a></li></ul><p class="muted" style="margin-top:22px;">&copy; <span id="yr"></span> Stewart Lab &middot; TCU</p></div></div></footer><script>document.getElementById("yr").textContent=new Date().getFullYear();var t=document.querySelector(".navtoggle"),m=document.getElementById("menu");t.addEventListener("click",function(){var o=m.classList.toggle("open");t.setAttribute("aria-expanded",o);});m.querySelectorAll("a").forEach(function(a){a.addEventListener("click",function(){m.classList.remove("open");});});var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target);}});},{threshold:0.12});document.querySelectorAll(".reveal").forEach(function(el){io.observe(el);});</script></body></html>
+</main><footer><div class="wrap foot-grid"><div><div class="brand"><svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="mg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6E3FA3"/><stop offset="1" stop-color="#1FB8AE"/></linearGradient></defs><path d="M8 26 C 14 8, 26 8, 32 26 C 26 34, 14 34, 8 26 Z" fill="none" stroke="url(#mg)" stroke-width="3.4" stroke-linecap="round"/><circle cx="20" cy="20" r="2.6" fill="#1FB8AE"/></svg>Stewart Lab</div><p class="muted">Department of Biology<br>Texas Christian University, Fort Worth, TX<br><a href="mailto:mikaela.stewart@tcu.edu">mikaela.stewart@tcu.edu</a></p></div><div><ul class="foot-links"><li><a href="research.html">Research</a></li><li><a href="publications.html">Publications</a></li><li><a href="people.html">People</a></li><li><a href="join.html">Join</a></li></ul><p class="muted" style="margin-top:22px;">&copy; <span id="yr"></span> Stewart Lab &middot; TCU</p></div></div></footer><script>document.getElementById("yr").textContent=new Date().getFullYear();var t=document.querySelector(".navtoggle"),m=document.getElementById("menu");t.addEventListener("click",function(){var o=m.classList.toggle("open");t.setAttribute("aria-expanded",o);});m.querySelectorAll("a").forEach(function(a){a.addEventListener("click",function(){m.classList.remove("open");});});var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target);}});},{threshold:0.12});document.querySelectorAll(".reveal").forEach(function(el){io.observe(el);});(function(){var gal=document.querySelector(".gallery"),lb=document.getElementById("lightbox");if(!gal||!lb)return;var im=document.getElementById("lb-img"),cap=document.getElementById("lb-cap"),idx=0,prev=null;var bs=Array.prototype.slice.call(gal.querySelectorAll(".shot-btn"));function capOf(b){var f=b.parentNode.querySelector("figcaption");return f?f.textContent:"";}function show(i){idx=(i+bs.length)%bs.length;var g=bs[idx].querySelector("img");im.src=g.src;im.alt=g.alt;cap.textContent=capOf(bs[idx]);}function open(i){prev=document.activeElement;show(i);lb.classList.add("open");lb.setAttribute("aria-hidden","false");document.body.style.overflow="hidden";lb.querySelector(".lb-close").focus();}function close(){lb.classList.remove("open");lb.setAttribute("aria-hidden","true");document.body.style.overflow="";if(prev)prev.focus();}bs.forEach(function(b,i){b.addEventListener("click",function(){open(i);});});lb.querySelector(".lb-close").addEventListener("click",close);lb.querySelector(".lb-prev").addEventListener("click",function(){show(idx-1);});lb.querySelector(".lb-next").addEventListener("click",function(){show(idx+1);});lb.addEventListener("click",function(e){if(e.target===lb)close();});document.addEventListener("keydown",function(e){if(!lb.classList.contains("open"))return;if(e.key==="Escape")close();else if(e.key==="ArrowLeft")show(idx-1);else if(e.key==="ArrowRight")show(idx+1);});})();</script></body></html>
