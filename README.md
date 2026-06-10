@@ -41,11 +41,13 @@ inside `<div class="gallery">`. New (most recent) photos go at the top:
 The little `<span class="when">…</span>` season tag is optional — leave it off and the caption
 still works. Photos ~1200–1600px wide, JPG or PNG, keep file sizes web-friendly (a few hundred KB).
 
-## Scan-to-visit QR code
-`images/qr.png` is a branded QR code (lab colors, worm in the center) that opens
-**stewartresearchlab.com**. It shows as a small "Scan to visit" card in every page footer;
-clicking it opens an enlarged, easy-to-scan view. To point it somewhere else (e.g. LinkedIn),
-regenerate the PNG for the new URL and replace `images/qr.png`.
+## Scan-to-visit QR card
+`images/qr-card.png` is the branded scan card (logo, a QR with the worm-in-orbit mark in its
+center, a one-line description, the URL, and the lab tagline) that opens **stewartresearchlab.com**.
+It appears as a small card in every page footer; clicking it opens an enlarged, easy-to-scan view.
+`images/qr.png` is the standalone QR (worm-and-hexagon center) on its own, in case you want just
+the code. To point the QR somewhere else (e.g. LinkedIn), regenerate both PNGs for the new URL.
+A print-resolution version of the card is kept outside the site as `stewart-lab-qr-card.png`.
 
 ## Contact details (footer)
 Every page footer shows the logo, the lab's address, a gradient **Connect on LinkedIn** button,
