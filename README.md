@@ -3,30 +3,46 @@
 A small multi-page site. Each tab is its own file, so clicking a tab opens a new page
 (no long scrolling). No build tools or plugins needed.
 
+> Logo: the site mark is a little *C. elegans* worm, drawn inline as SVG in each page's
+> header and footer (and as the browser-tab favicon). To restyle it, search a page for
+> `class="mark"`. A standalone `logo.svg` / `logo.png` are included for slides or letterhead.
+
 ## Files
-- index.html ............ Home
-- research.html ......... Research (the science story)
+- index.html ............ Home (hero tagline has an animated shimmer)
+- research.html ......... Research (the science story — two complementary approaches)
 - publications.html ..... Publications (plain-language summaries + links)
-- people.html ........... People
+- people.html ........... "In Action" tab (PI bio + life in the lab gallery)
 - join.html ............. Join the lab
 - styles.css ............ ALL styling and colors (shared by every page)
 - images/ ............... put photos here
 
+Note: the tab reads **In Action** but the file is still `people.html` (so existing links keep working).
+
 ## Adding photos
 Upload image files to the **images/** folder using these names and they appear automatically:
-- images/mikaela-stewart.jpg  (People)
-- images/brca1-palb2.jpg      (Research, approach one)
-- images/celegans.jpg         (Research, approach two)
-Until a file exists, that spot shows a labeled placeholder. JPG or PNG; ~1200px wide is plenty.
+- images/mikaela-stewart.jpg   (In Action page)
+- images/brca1-palb2.jpg       (Research, approach one — the molecular handshake)
+- images/celegans.jpg          (Research, approach two — the off switch / the worm)
+- images/lab-*.jpg, conf-*.jpg (Life-in-the-lab gallery on the In Action page)
+JPG or PNG; ~1200px wide is plenty.
+
+## Contact details (footer)
+Every page footer links to the lab's address and LinkedIn, and the **Contact** link in the
+top toolbar jumps there. To edit, search any page for `footer id="contact"` — the address
+(Winton Scott Hall, Suite 521) and the LinkedIn button live right there. Copyright shows
+`2017–<current year>` and the year fills in automatically.
 
 ## Changing words
-Open the page you want (e.g. research.html) in any text editor and type. Look for `EDIT`
-comments where helpful. To add a publication, copy one `<div class="pub">...</div>` block in
-publications.html. To add a team member, copy one `<li>...</li>` in people.html.
+Open the page you want (e.g. research.html) in any text editor and type. To add a publication,
+copy one `<div class="pub">...</div>` block in publications.html. To add a team member, copy
+one `<li>...</li>` in people.html.
 
-## Changing colors
-Open **styles.css**. At the top, the `:root` block lists every color once. Change a hex value
-(e.g. `--purple`) and it updates across all pages.
+## Changing fonts and colors
+Open **styles.css**. The site uses three typefaces only — Fraunces (headings), Inter (body),
+and Space Mono (small labels) — loaded once via the `<link>` in each page `<head>`. The `:root`
+block at the top of styles.css lists every color once; change a hex value (e.g. `--purple`)
+and it updates across all pages. The hero shimmer respects "reduced motion" settings and
+freezes to a solid color for visitors who prefer that.
 
 ## Publishing with GitHub Pages
 1. Put all files (and the images/ folder) in one repo.
