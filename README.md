@@ -41,20 +41,19 @@ inside `<div class="gallery">`. New (most recent) photos go at the top:
 The little `<span class="when">…</span>` season tag is optional — leave it off and the caption
 still works. Photos ~1200–1600px wide, JPG or PNG, keep file sizes web-friendly (a few hundred KB).
 
-## Scan-to-visit QR card
-`images/qr-card.png` is the branded scan card (logo, a QR with the worm-in-orbit mark in its
-center, a one-line description, the URL, and the lab tagline) that opens **stewartresearchlab.com**.
-It appears as a small card in every page footer; clicking it opens an enlarged, easy-to-scan view.
-`images/qr.png` is the standalone QR (worm-and-hexagon center) on its own, in case you want just
-the code. To point the QR somewhere else (e.g. LinkedIn), regenerate both PNGs for the new URL.
-A print-resolution version of the card is kept outside the site as `stewart-lab-qr-card.png`.
+## QR card assets (not on the site)
+The branded QR card isn't shown on the website anymore, but the artwork is kept for reuse
+(slides, posters, handouts, email signatures): `images/qr-card.png` is the full card (logo, a
+QR with the worm-in-orbit mark, description, URL, and tagline), `images/qr.png` is the standalone
+QR on its own, and `stewart-lab-qr-card.png` (outside the site folder) is a print-resolution
+version. All of them open **stewartresearchlab.com**; to point the QR elsewhere, regenerate the PNGs.
 
 ## Contact details (footer)
-Every page footer shows the logo, the lab's address, a gradient **Connect on LinkedIn** button,
-and the scan-to-visit QR card; the **Contact** link in the top toolbar jumps there. To edit,
-search any page for `footer id="contact"` — the address (Winton Scott Hall, Suite 521) and the
-LinkedIn link live right there. Copyright shows `2017–<current year>` and the year fills in
-automatically.
+Every page footer shows the logo with a gradient **Connect on LinkedIn** button beside it, then
+the lab's address below; the right side has the page links and copyright. The **Contact** link in
+the top toolbar jumps there. To edit, search any page for `footer id="contact"` — the address
+(Winton Scott Hall, Suite 521) and the LinkedIn link live right there. Copyright shows
+`2017–<current year>` and the year fills in automatically.
 
 ## Changing words
 Open the page you want (e.g. research.html) in any text editor and type. To add a publication,
