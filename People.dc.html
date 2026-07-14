@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&amp;family=Inter:wght@400;500;600&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+<style>
+  body{margin:0;background:#FBFAFD;color:#3C3548;font-family:"Inter",system-ui,sans-serif;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;}
+  *{box-sizing:border-box;}
+  a{color:#6E3FA3;text-decoration:none;}
+  a:hover{text-decoration:underline;}
+</style>
+</helmet>
+<div style="min-height:100vh;">
+  <header style="position:sticky;top:0;z-index:50;background:rgba(251,250,253,.88);backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid #E6DFEE;">
+    <div style="max-width:1080px;margin:0 auto;padding:0 28px;display:flex;align-items:center;justify-content:space-between;height:66px;">
+      <a href="index.html" style="display:flex;align-items:center;gap:11px;font-family:'Fraunces',serif;font-weight:600;font-size:19px;color:#2B1B3D;">
+        <svg viewBox="0 0 40 40" aria-hidden="true" style="width:26px;height:26px;flex:0 0 auto;">
+          <defs><linearGradient id="mg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6E3FA3"></stop><stop offset="1" stop-color="#1FB8AE"></stop></linearGradient></defs>
+          <path d="M12.4 29.1L12.5 28.6L12.6 27.9L12.7 27.2L12.8 26.4L12.9 25.5L13 24.6L13.1 23.8L13.2 23L13.3 22.2L13.4 21.6L13.6 21.2L13.7 21L13.9 20.7L14.1 20.4L14.4 20.1L14.8 19.8L15.2 19.5L15.6 19.2L16.1 18.9L16.6 18.6L17.1 18.4L17.6 18.2L18.1 18L18.5 17.9L19 17.8L19.5 17.7L20.1 17.7L20.8 17.6L21.5 17.7L22.2 17.7L22.8 17.8L23.5 17.9L24.2 18L24.8 18.2L25.4 18.3L25.8 18.5L26.2 18.6L26.6 18.9L27.1 19.4L27.6 20L28.2 20.6L28.7 21.3L29.2 22L29.8 22.6L30.3 23.2L30.9 23.7L31.6 24.2L32.8 24.3L33.8 23.7L34.1 22.9L34.3 22.1L34.4 21.3L34.4 20.4L34.4 19.5L34.3 18.6L34.3 17.7L34.2 16.8L34.1 16.1L34 15.4L34 15L34 15L33.8 15.4L33.7 16L33.5 16.7L33.3 17.6L33 18.4L32.8 19.3L32.6 20.2L32.3 20.9L32.1 21.5L31.9 21.9L31.8 22L32.2 21.7L32.8 21.7L32.8 21.7L32.7 21.3L32.4 20.8L32.1 20.2L31.7 19.4L31.3 18.6L30.9 17.7L30.3 16.8L29.7 16L29 15.2L28.2 14.5L27.4 14L26.6 13.6L25.7 13.3L24.8 12.9L24 12.7L23 12.4L22.1 12.2L21.2 12.1L20.2 12L19.3 12L18.4 12L17.5 12.1L16.6 12.3L15.7 12.5L14.9 12.8L14 13.1L13.2 13.5L12.4 13.9L11.6 14.5L10.8 15L10.1 15.7L9.5 16.4L8.9 17.1L8.3 18L7.8 19.1L7.5 20.2L7.3 21.2L7.2 22.3L7.2 23.4L7.2 24.4L7.2 25.4L7.3 26.3L7.4 27.2L7.5 27.9L7.5 28.4L7.6 28.9L7.7 29.7L8.1 30.4L8.7 31L9.4 31.4L10.3 31.4L11.1 31.2L11.8 30.7L12.2 30Z" fill="url(#mg)"></path>
+          <circle cx="11.2" cy="25.5" r="1.25" fill="#2B1B3D"></circle><circle cx="11.8" cy="22.0" r="1.25" fill="#2B1B3D"></circle>
+        </svg>Stewart Lab</a>
+      <ul style="display:flex;gap:24px;list-style:none;margin:0;padding:0;">
+        <li><a href="index.html" style="color:#2B1B3D;font-size:15px;font-weight:500;padding:4px 0;border-bottom:2px solid transparent;">Home</a></li>
+        <li><a href="research.html" style="color:#2B1B3D;font-size:15px;font-weight:500;padding:4px 0;border-bottom:2px solid transparent;">Research</a></li>
+        <li><a href="publications.html" style="color:#2B1B3D;font-size:15px;font-weight:500;padding:4px 0;border-bottom:2px solid transparent;">Publications</a></li>
+        <li><a href="people.html" style="color:#6E3FA3;font-size:15px;font-weight:500;padding:4px 0;border-bottom:2px solid #1FB8AE;">In Action</a></li>
+        <li><a href="join.html" style="color:#2B1B3D;font-size:15px;font-weight:500;padding:4px 0;border-bottom:2px solid transparent;">Join</a></li>
+        <li><a href="#contact" style="color:#2B1B3D;font-size:15px;font-weight:500;padding:4px 0;border-bottom:2px solid transparent;">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section style="padding:64px 0 26px;">
+      <div style="max-width:1080px;margin:0 auto;padding:0 28px;">
+        <div style="width:64px;height:4px;border-radius:3px;background:linear-gradient(90deg,#6E3FA3,#1FB8AE);margin-bottom:22px;"></div>
+        <p style="font-family:'Space Mono',monospace;font-size:13.5px;letter-spacing:.14em;text-transform:uppercase;color:#0E9C92;margin:0 0 14px;">In Action</p>
+        <h1 style="font-family:'Fraunces',Georgia,serif;color:#2B1B3D;font-weight:600;line-height:1.12;margin:0;font-size:clamp(34px,5vw,52px);letter-spacing:-.01em;max-width:18ch;">The people behind the work</h1>
+        <p style="font-size:20px;color:#756E83;max-width:60ch;margin:18px 0 0;">Research here is hands-on and collaborative — undergraduates, graduate students, and faculty partners working side by side at the bench.</p>
+      </div>
+    </section>
+
+    <section style="padding:50px 0;">
+      <div style="max-width:1080px;margin:0 auto;padding:0 28px;">
+        <div style="display:grid;grid-template-columns:280px 1fr;gap:48px;align-items:start;">
+          <figure style="position:relative;margin:0;width:100%;aspect-ratio:3/4;border-radius:16px;overflow:hidden;background:linear-gradient(135deg,#F3EEF8,#E6F5F3);">
+            <img src="images/mikaela-stewart.jpg" alt="Dr. Mikaela Stewart" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+          </figure>
+          <div>
+            <h2 style="font-family:'Fraunces',Georgia,serif;color:#2B1B3D;font-weight:600;line-height:1.12;font-size:26px;margin:0 0 4px;">Dr. Mikaela Stewart</h2>
+            <p style="font-weight:600;font-size:13px;color:#0E9C92;text-transform:uppercase;letter-spacing:.08em;margin:0 0 16px;">Principal Investigator · Department of Biology, TCU</p>
+            <p style="margin:0;">Dr. Stewart leads the lab's work on the structure and function of BRCA1 and its role in cancer risk, supported by the National Institutes of Health and TCU. She mentors students through every stage of real research — from purifying proteins to publishing — and is committed to making that science clear to people far outside the lab.</p>
+            <p style="margin:14px 0 0;">I thrive from passing on my excitement for science and inclusive teaching when mentoring and training others. My laboratory uses biochemistry, structural biology, genetics and cancer cell biology techniques to study protein function, design novel therapeutics, and inform on breast cancer genetic risks. My classroom employs evidence-based strategies and active inquiry to teach ALL students how to think like scientists. <a href="https://cse.tcu.edu/biology/faculty-staff/view/mikaela-stewart#teaching-philosophy">Read more on my teaching philosophy here</a>. I enjoy collaborating on research and teaching so if our interests align in either please message me!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" style="padding:50px 0;">
+      <div style="max-width:1080px;margin:0 auto;padding:0 28px;">
+        <div style="max-width:62ch;margin-bottom:32px;">
+          <p style="font-family:'Space Mono',monospace;font-size:13.5px;letter-spacing:.14em;text-transform:uppercase;color:#0E9C92;margin:0 0 14px;">Life in the lab</p>
+          <h2 style="font-family:'Fraunces',Georgia,serif;color:#2B1B3D;font-weight:600;line-height:1.12;font-size:clamp(26px,3.6vw,38px);margin:0;">Science, and the people doing it</h2>
+          <p style="color:#756E83;margin:14px 0 0;">From the McCracken Symposium here in Fort Worth to national meetings in San Antonio, San Francisco, and just outside DC — plus the occasional very nerdy game night. Tap any photo to enlarge.</p>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:22px;">
+          <sc-for list="{{ shots }}" as="shot" hint-placeholder-count="6">
+            <figure style="margin:0;">
+              <button type="button" onClick="{{ shot.open }}" style="display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;border-radius:14px;overflow:hidden;line-height:0;box-shadow:0 4px 16px rgba(43,27,61,.08);">
+                <img src="{{ shot.src }}" alt="{{ shot.alt }}" loading="lazy" style="width:100%;aspect-ratio:4/3;display:block;object-fit:{{ shot.fit }};background:#fff;">
+              </button><figcaption style="font-size:14px;color:#756E83;margin-top:11px;line-height:1.45;">
+                <sc-if value="{{ shot.when }}" hint-placeholder-val=""><span style="display:inline-block;font-weight:600;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#0E9C92;margin-right:7px;white-space:nowrap;">{{ shot.when }}</span></sc-if>{{ shot.caption }}
+              </figcaption>
+              
+            </figure>
+          </sc-for>
+        </div>
+      </div>
+    </section>
+
+    <sc-if value="{{ lbOpen }}" hint-placeholder-val="{{ false }}">
+      <div role="dialog" aria-modal="true" aria-label="Photo viewer" onClick="{{ closeLb }}" style="position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;background:rgba(20,12,28,.93);padding:28px;">
+        <button type="button" aria-label="Close" onClick="{{ closeLb }}" style="position:absolute;top:20px;right:20px;background:rgba(255,255,255,.13);color:#fff;border:0;cursor:pointer;border-radius:999px;width:48px;height:48px;font-size:26px;line-height:1;display:flex;align-items:center;justify-content:center;">×</button>
+        <button type="button" aria-label="Previous photo" onClick="{{ prevLb }}" style="position:absolute;left:20px;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.13);color:#fff;border:0;cursor:pointer;border-radius:999px;width:48px;height:48px;font-size:26px;line-height:1;display:flex;align-items:center;justify-content:center;">‹</button>
+        <figure onClick="{{ stop }}" style="margin:0;max-width:1100px;width:100%;text-align:center;">
+          <img src="{{ lbImg }}" alt="{{ lbAlt }}" style="max-width:100%;max-height:78vh;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.5);">
+          <figcaption style="color:#EDE7F3;font-size:15.5px;line-height:1.5;margin:16px auto 0;max-width:62ch;">{{ lbCap }}</figcaption>
+        </figure>
+        <button type="button" aria-label="Next photo" onClick="{{ nextLb }}" style="position:absolute;right:20px;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.13);color:#fff;border:0;cursor:pointer;border-radius:999px;width:48px;height:48px;font-size:26px;line-height:1;display:flex;align-items:center;justify-content:center;">›</button>
+      </div>
+    </sc-if>
+
+    <section style="padding:50px 0;">
+      <div style="max-width:1080px;margin:0 auto;padding:0 28px;">
+        <div style="max-width:62ch;margin-bottom:32px;">
+          <p style="font-family:'Space Mono',monospace;font-size:13.5px;letter-spacing:.14em;text-transform:uppercase;color:#0E9C92;margin:0 0 14px;">Alumni</p>
+          <h2 style="font-family:'Fraunces',Georgia,serif;color:#2B1B3D;font-weight:600;line-height:1.12;font-size:clamp(26px,3.6vw,38px);margin:0;">Where are they now?</h2>
+          <p style="color:#756E83;margin:14px 0 0;">Where our Master’s students have headed after the Stewart Lab.</p>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:18px;margin-top:6px;">
+          <sc-for list="{{ alumni }}" as="a" hint-placeholder-count="6">
+            <div style="background:{{ a.bg }};border:1px solid {{ a.border }};border-radius:16px;padding:20px 22px;">
+              <span style="display:inline-block;font-weight:600;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:#0E9C92;margin:0 0 8px;">{{ a.when }}</span>
+              <h3 style="font-family:'Fraunces',Georgia,serif;color:#2B1B3D;font-weight:600;line-height:1.12;font-size:20px;margin:0 0 8px;">{{ a.name }}</h3>
+              <p style="margin:0;color:#3C3548;font-size:15px;line-height:1.55;">{{ a.note }}</p>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding:50px 0;">
+      <div style="max-width:1080px;margin:0 auto;padding:0 28px;">
+        <div style="background:linear-gradient(120deg,#2B1B3D,#6E3FA3);border-radius:22px;color:#fff;padding:52px 44px;display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap;">
+          <div>
+            <h2 style="font-family:'Fraunces',Georgia,serif;color:#fff;font-weight:600;line-height:1.12;font-size:clamp(26px,3.4vw,36px);max-width:18ch;margin:0;">Want to be on this page?</h2>
+            <p style="color:#E9DDF5;margin:10px 0 0;max-width:46ch;">The lab takes on motivated students — including undergraduates new to research.</p>
+          </div>
+          <a href="join.html" style="display:inline-block;font-weight:600;font-size:15px;padding:13px 22px;border-radius:999px;background:#1FB8AE;color:#2B1B3D;">Join the lab</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" style="border-top:1px solid #E6DFEE;padding:46px 0 60px;margin-top:30px;">
+    <div style="max-width:1080px;margin:0 auto;padding:0 28px;display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;">
+      <div>
+        <div style="display:flex;align-items:center;gap:28px;flex-wrap:wrap;margin-bottom:20px;">
+          <a href="index.html" style="display:inline-block;line-height:0;"><img src="images/logo-light.png" alt="Stewart Research Lab" width="140" style="width:140px;height:auto;display:block;filter:drop-shadow(0 6px 16px rgba(43,27,61,.12));"></a>
+          <a href="https://www.linkedin.com/in/mikaelastewart/" target="_blank" rel="noopener" style="display:inline-block;font-weight:600;font-size:16px;padding:13px 26px;border-radius:999px;background:linear-gradient(120deg,#6E3FA3 0%,#8B5CC7 48%,#1FB8AE 100%);color:#fff;box-shadow:0 4px 14px rgba(110,63,163,.22);">Connect on LinkedIn →</a>
+        </div>
+        <p style="color:#756E83;font-size:15px;">Department of Biology, Texas Christian University<br>Winton Scott Hall, Suite 521<br>2955 S. University Drive<br>Fort Worth, Texas 76109<br><a href="mailto:mikaela.stewart@tcu.edu">mikaela.stewart@tcu.edu</a></p>
+      </div>
+      <div>
+        <ul style="list-style:none;margin:0;padding:0;display:flex;gap:22px;flex-wrap:wrap;">
+          <li><a href="research.html" style="color:#2B1B3D;font-size:15px;">Research</a></li>
+          <li><a href="publications.html" style="color:#2B1B3D;font-size:15px;">Publications</a></li>
+          <li><a href="people.html" style="color:#2B1B3D;font-size:15px;">In Action</a></li>
+          <li><a href="join.html" style="color:#2B1B3D;font-size:15px;">Join</a></li>
+        </ul>
+        <p style="color:#756E83;font-size:15px;margin-top:22px;">© 2017–{{ year }} Stewart Lab · TCU</p>
+      </div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { lbOpen: false, idx: 0 };
+
+  shotData() {
+    return [
+      { src: "images/conf-texas-chembio-2026.jpg", alt: "Stewart Lab recap graphic from the Texas Chemical Biology Conference", graphic: true, when: "Spring 2026", caption: "Straight from the lab\u2019s own conference recap: Madison Adam and Meagan McMann-Cunningham presenting peptide-mimic and worm-genetics work at the Texas Chemical Biology Conference." },
+      { src: "images/conf-asbmb-2026-poster79.jpg", alt: "Meagan McMann presenting her poster on the ASBMB exhibit floor", when: "Spring 2026", caption: "Meagan McMann working poster #79 at the ASBMB Annual Meeting in DC, connecting BRCA1\u2019s worm cousin to nucleosome ubiquitylation. The hand gestures, as ever, are load-bearing." },
+      { src: "images/conf-asbmb-2026-recap.jpg", alt: "Stewart Lab recap graphic from the ASBMB Annual Meeting in Washington, DC", graphic: true, when: "Spring 2026", caption: "The lab-made rundown of ASBMB in Washington, DC: Dr.\u00a0Stewart, Meagan McMann, and Jamison Speed all presented, with undergrads Madison Adams, Styrling Murray, Lucy McCollum, and Nathalie Carlon as coauthors." },
+      { src: "images/conf-asbmb-2026.jpg", alt: "Dr. Stewart with two graduate students at the ASBMB Annual Meeting", when: "Spring 2026", caption: "ASBMB Annual Meeting, just outside Washington, DC \u2014 Dr.\u00a0Stewart with grad students Meagan McMann and Jamison Speed, taking the lab\u2019s BRCA1 work national." },
+      { src: "images/conf-protein-society-2025-stewart.jpg", alt: "Dr. Stewart beside her BRCA1 enzyme-specificity poster at the Protein Society symposium", when: "Summer 2025", caption: "Dr.\u00a0Stewart presenting \u201cEvolutionary insights into BRCA1 enzyme specificity\u201d at the Protein Society\u2019s 39th Annual Symposium in San Francisco." },
+      { src: "images/conf-protein-society-2025-palb2.jpg", alt: "Jamison Speed beside his PALB2 variants poster", when: "Summer 2025", caption: "Jamison Speed presenting inherited PALB2 variants at the national Protein Society Meeting. Science, sun, and San Francisco." },
+      { src: "images/conf-protein-society-2025-selfie.jpg", alt: "Two lab members taking a selfie in front of a research poster", when: "Summer 2025", caption: "Conference selfie in front of the BRCA1 poster. Elizabeth Hoff and Lauren Herrington represented with posters and lightning talks at an ASBMB meeting in Kansas City." },
+      { src: "images/conf-acs-2025-sandiego.jpg", alt: "Collage of TCU students at the ACS Spring 2025 meeting in San Diego", when: "Spring 2025", caption: "ACS Spring 2025 in San Diego \u2014 Stewart Lab research in good company with the wider TCU chemistry crowd." },
+      { src: "images/srs-2025-celegans.jpg", alt: "Dr. Stewart and a student beside a C. elegans BRCA1 poster", when: "Spring 2025", caption: "Dr.\u00a0Stewart and Elizabeth Hoff with the poster on how BRCA1\u2019s worm cousin keeps the wrong genes switched off in C.\u00a0elegans, at the McCracken Student Research Symposium." },
+      { src: "images/srs-2025-crew.jpg", alt: "Five lab members posing with poster tubes outside", when: "Spring 2025", caption: "The whole crew after the Student Research Symposium \u2014 Audrey took home best undergraduate biology poster." },
+      { src: "images/srs-2025-celebrate.jpg", alt: "Lab members holding poster tubes overhead like a frame", when: "Spring 2025", caption: "Poster tubes make excellent celebratory headgear. Symposium survived." },
+      { src: "images/srs-2025-discussion.jpg", alt: "A student explaining a research poster to a visitor", when: "Spring 2025", caption: "Walking a visitor through the C.\u00a0elegans gene-regulation story, one hand gesture at a time." },
+      { src: "images/conf-asbmb-2024-collage.jpg", alt: "Collage of Stewart Lab members at the ASBMB Discover BMB 2024 meeting", when: "Spring 2024", caption: "Discover BMB 2024 in San Antonio \u2014 Chrissy, Dr.\u00a0Stewart, Precious, and Hayes all presented." },
+      { src: "images/conf-asbmb-2024-talk.jpg", alt: "A student presenting a poster and answering a visitor\u2019s question", when: "Spring 2024", caption: "Fielding questions on PALB2 phosphorylation at Discover BMB 2024." },
+      { src: "images/conf-asbmb-2024-marquee.jpg", alt: "Illuminated ASBMB marquee letters at night", when: "Spring 2024", caption: "ASBMB after dark, San Antonio." },
+      { src: "images/srs-2024-proline.jpg", alt: "Chrissy Baker beside her proline-variants poster", when: "Spring 2024", caption: "Chrissy Baker with her structural work on proline variants \u2014 winner of the department-wide award for best presentation." },
+      { src: "images/srs-2024-phospho.jpg", alt: "Audrey presenting a phosphorylation poster while wearing a party hat", when: "Spring 2024", caption: "Audrey (in a well-earned birthday hat) on the BRCA1/PALB2 phosphorylation story." },
+      { src: "images/srs-2024-dimerization.jpg", alt: "A student beside a poster on BRCA1-PALB2 dimerization", when: "Spring 2024", caption: "How PALB2 phosphorylation tunes the BRCA1\u2013PALB2 partnership, measured in\u00a0vitro." },
+      { src: "images/srs-2024-era.jpg", alt: "Aiza Butt beside her estrogen-receptor-alpha poster", when: "Spring 2024", caption: "Aiza Butt on BRCA1\u2019s interaction with estrogen receptor alpha." },
+      { src: "images/lab-group.jpg", alt: "Stewart Lab group photo outside the science building", when: "", caption: "The whole crew. Wearing purple isn\u2019t in the lab safety manual, but the data trend strongly that way." },
+      { src: "images/conf-proline-kink.jpg", alt: "Student presenting the poster A Kink in the System", when: "", caption: "\u201cA Kink in the System\u201d: one stubborn proline can unravel a whole helix. Great title, real science." },
+      { src: "images/conf-peptide-mimics.jpg", alt: "Student explaining a poster on peptide mimics of the BRCA1-PALB2 interaction", when: "", caption: "Explaining how designer peptides might block the BRCA1\u2013PALB2 handshake. The hand gestures are load-bearing." },
+      { src: "images/conf-meiosis.jpg", alt: "Student presenting a poster on C. elegans meiosis", when: "", caption: "How BRCA1\u2019s worm cousin keeps chromosomes in line during meiosis. Several thousand worms contributed; none were available for comment." },
+      { src: "images/conf-ros.jpg", alt: "Two students with a poster on BRCA1 and reactive oxygen species", when: "", caption: "Investigating oxidative stress \u2014 a subject every undergrad student understands on a deeply personal level." },
+      { src: "images/lab-game-night.jpg", alt: "Four lab members gathered around a table", when: "", caption: "Lab meeting, or the nerdiest game night in Fort Worth? The amino-acid chart on the table says: both." },
+      { src: "images/lab-classroom.jpg", alt: "Three lab members in a classroom with data on the screens behind them", when: "", caption: "Three scientists, two giant monitors, and roughly forty open browser tabs." },
+      { src: "images/conf-asbmb-selfie.jpg", alt: "Lab members taking a selfie in front of conference posters", when: "", caption: "Conference mode, hour six: fully caffeinated, freshly credentialed, running on poster fumes." }
+    ];
+  }
+
+  componentDidMount() {
+    this._onKey = (e) => {
+      if (!this.state.lbOpen) return;
+      if (e.key === "Escape") this.setState({ lbOpen: false });
+      else if (e.key === "ArrowLeft") this.move(-1);
+      else if (e.key === "ArrowRight") this.move(1);
+    };
+    document.addEventListener("keydown", this._onKey);
+  }
+  componentWillUnmount() { document.removeEventListener("keydown", this._onKey); }
+
+  move(d) {
+    const n = this.shotData().length;
+    this.setState(s => ({ idx: (s.idx + d + n) % n }));
+  }
+
+  renderVals() {
+    const shots = this.shotData().map((s, i) => ({
+      ...s,
+      fit: s.graphic ? "contain" : "cover",
+      open: () => this.setState({ lbOpen: true, idx: i })
+    }));
+    const cur = this.shotData()[this.state.idx] || {};
+    const alumni = [
+      { when: "MS \u201920", name: "Christine Hurd", note: "Earned her DO at the UNT Health Science Center and is now a psychiatry resident at JPS.", bg: "#fff", border: "#E6DFEE" },
+      { when: "MS \u201921", name: "Ishor Thapa", note: "An oncology PhD candidate at the Huntsman Cancer Institute, University of Utah School of Medicine.", bg: "#fff", border: "#E6DFEE" },
+      { when: "MS \u201921", name: "Russell Vahrenkamp", note: "A physician assistant (PA) student at the University of Texas Medical Branch.", bg: "#fff", border: "#E6DFEE" },
+      { when: "MS \u201924", name: "Chrissy Baker", note: "A PhD student in Human Genetics and Genomics at the University of Miami Miller School of Medicine.", bg: "#fff", border: "#E6DFEE" },
+      { when: "MS \u201926", name: "Jamison Speed", note: "A genetic counseling assistant in the Cancer Genetics department at UT Southwestern Medical Center.", bg: "#fff", border: "#E6DFEE" },
+      { when: "MS \u201926", name: "Meagan McMann", note: "Staying in the Stewart Lab as our very first PhD student!", bg: "#E6F5F3", border: "rgba(31,184,174,.45)" }
+    ];
+    return {
+      year: new Date().getFullYear(),
+      shots, alumni,
+      lbOpen: this.state.lbOpen,
+      lbImg: cur.src, lbAlt: cur.alt, lbCap: cur.caption,
+      closeLb: () => this.setState({ lbOpen: false }),
+      prevLb: (e) => { e.stopPropagation(); this.move(-1); },
+      nextLb: (e) => { e.stopPropagation(); this.move(1); },
+      stop: (e) => e.stopPropagation()
+    };
+  }
+}
+</script>
+</body>
+</html>
